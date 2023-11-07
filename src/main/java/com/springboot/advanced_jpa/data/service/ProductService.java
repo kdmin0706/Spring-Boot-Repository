@@ -1,7 +1,7 @@
-package com.springboot.test.data.service;
+package com.springboot.advanced_jpa.data.service;
 
-import com.springboot.test.data.dto.ProductDto;
-import com.springboot.test.data.dto.ProductResponseDto;
+import com.springboot.advanced_jpa.data.dto.ProductDto;
+import com.springboot.advanced_jpa.data.dto.ProductResponseDto;
 
 public interface ProductService {
     ProductResponseDto getProduct(Long number);

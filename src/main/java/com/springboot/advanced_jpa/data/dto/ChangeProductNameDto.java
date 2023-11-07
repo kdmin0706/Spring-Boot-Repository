@@ -1,4 +1,4 @@
-package com.springboot.test.data.dto;
+package com.springboot.advanced_jpa.data.dto;
 
 import lombok.*;
 

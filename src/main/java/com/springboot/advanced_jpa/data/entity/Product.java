@@ -1,4 +1,4 @@
-package com.springboot.test.data.entity;
+package com.springboot.advanced_jpa.data.entity;
 
 import lombok.*;
 
