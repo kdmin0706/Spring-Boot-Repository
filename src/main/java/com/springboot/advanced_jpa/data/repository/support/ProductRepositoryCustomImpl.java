@@ -2,9 +2,7 @@ package com.springboot.advanced_jpa.data.repository.support;
 
 import com.springboot.advanced_jpa.data.entity.Product;
 import com.springboot.advanced_jpa.data.entity.QProduct;
-import com.springboot.advanced_jpa.data.repository.ProductRepository;
 import org.springframework.data.jpa.repository.support.QuerydslRepositorySupport;
-import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
