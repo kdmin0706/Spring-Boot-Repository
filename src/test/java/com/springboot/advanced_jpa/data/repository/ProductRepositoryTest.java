@@ -31,24 +31,18 @@ class ProductRepositoryTest {
                 .name("pen")
                 .price(1000)
                 .stock(100)
-                .createdAt(LocalDateTime.now())
-                .updatedAt(LocalDateTime.now())
                 .build();
 
         Product product2 = Product.builder()
                 .name("pen")
                 .price(5000)
                 .stock(500)
-                .createdAt(LocalDateTime.now())
-                .updatedAt(LocalDateTime.now())
                 .build();
 
         Product product3 = Product.builder()
                 .name("pen")
                 .price(500)
                 .stock(50)
-                .createdAt(LocalDateTime.now())
-                .updatedAt(LocalDateTime.now())
                 .build();
 
         Product savedProduct1 = this.productRepository.save(product1);
