@@ -44,9 +44,9 @@ class ProductRepositoryTest {
                 .stock(50)
                 .build();
 
-        Product savedProduct1 = this.productRepository.save(product1);
-        Product savedProduct2 = this.productRepository.save(product2);
-        Product savedProduct3 = this.productRepository.save(product3);
+        this.productRepository.save(product1);
+        this.productRepository.save(product2);
+        this.productRepository.save(product3);
 
         System.out.println(productRepository.findByName("pen", getSort()));
     }
